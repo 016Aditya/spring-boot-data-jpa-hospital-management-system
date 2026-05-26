@@ -8,3 +8,10 @@ VALUES
   ('Diljeet Singh', 'MALE', '1993-08-11', 'diljeet.singh@example.com', 'B_POSITIVE')
 
 ON CONFLICT DO NOTHING;
+
+INSERT INTO doctor (name, specialization, email)
+VALUES
+  ('Dr. Rakesh Mehta', 'Cardiology', 'rakesh.mehta@example.com'),
+  ('Dr. Sneha Kapoor', 'Dermatology', 'sneha.kapoor@example.com'),
+  ('Dr. Arjun Nair', 'Orthopedics', 'arjun.nair@example.com')
+ON CONFLICT (email) DO NOTHING;
