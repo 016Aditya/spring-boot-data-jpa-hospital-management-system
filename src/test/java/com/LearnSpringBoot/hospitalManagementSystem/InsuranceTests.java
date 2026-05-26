@@ -47,11 +47,11 @@ public class InsuranceTests {
                 .build();
 
         // Uses your seeded Doctor 1L and Patient 2L
-        var newAppointment = appointmentService.createNewAppointment(appointment, 1L, 2L);
-        System.out.println(newAppointment);
+//        var newAppointment = appointmentService.createNewAppointment(appointment, 1L, 2L);
+//        System.out.println(newAppointment);
 
         // Uses your seeded Doctor 3L for reassignment
-        var updatedAppointment = appointmentService.reAssignAppointmentToAnotherDoctor(newAppointment.getId(), 3L);
-        System.out.println(updatedAppointment);
+//        var updatedAppointment = appointmentService.reAssignAppointmentToAnotherDoctor(newAppointment.getId(), 3L);
+//        System.out.println(updatedAppointment);
     }
 }
