@@ -1,0 +1,9 @@
+Spring:
+  security.oauth2.client:
+    registration:
+      google:
+        client-id: asldfjalksdjf
+        client-secret: asdlfjalksdfj
+      github:
+        client-id: asdlfjalsdf
+        client-secret: aslfjalsdfj

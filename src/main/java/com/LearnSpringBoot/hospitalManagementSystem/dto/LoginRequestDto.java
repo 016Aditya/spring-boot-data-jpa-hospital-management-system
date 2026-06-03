@@ -1,4 +1,4 @@
-package com.LearnSpringBoot.hospitalManagementSystem.security;
+package com.LearnSpringBoot.hospitalManagementSystem.dto;
 
 import lombok.Data;
 
